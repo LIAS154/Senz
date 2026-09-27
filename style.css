@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #eeeeee;
+    font-family: sans-serif;
+}
+
+canvas {
+    display: block;
+    background: white;
+}
+
+#ui {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px;
+
+    background: rgba(255, 255, 255, 0.92);
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+
+    z-index: 10;
+}
+
+button {
+    border: none;
+
+    padding: 9px 14px;
+
+    border-radius: 8px;
+
+    background: #dddddd;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+#inkText {
+    font-weight: bold;
+    min-width: 110px;
+}
+
+button:hover {
+    background: #cccccc;
+}
+
+button.selected {
+    background: #222222;
+    color: white;
+}
+
+#ui span {
+    margin-left: 8px;
+    font-size: 13px;
+}

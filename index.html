@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>線</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="ui">
+
+        <button id="penButton" class="selected">
+            ✏️ ペン
+        </button>
+
+        <button id="eraserButton">
+            🧽 消しゴム
+        </button>
+
+        <div id="inkText">
+            INK 100 / 100
+        </div>
+
+        <span>
+            ← → 移動　｜　Space ジャンプ
+        </span>
+
+    </div>
+
+    <canvas id="game"></canvas>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
